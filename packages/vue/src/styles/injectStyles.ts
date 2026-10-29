@@ -27,6 +27,7 @@ import DEFAULTS_CSS from './defaults.css';
 import CHANGE_CREDENTIAL_CSS from '../components/account/change-credential/ChangeCredential.css';
 import USER_DROPDOWN_CSS from '../components/account/user-dropdown/UserDropdown.css';
 import USER_PROFILE_CSS from '../components/account/user-profile/UserProfile.css';
+import VERIFY_ATTRIBUTE_CSS from '../components/account/verify-attribute/VerifyAttribute.css';
 import ADMIN_CSS from '../components/admin/shared/Admin.css';
 import BASE_SIGN_IN_CSS from '../components/auth/sign-in/BaseSignIn.css';
 import ATTRIBUTION_CSS from '../components/common/attribution/Attribution.css';
@@ -85,6 +86,7 @@ const STYLES: string = [
   USER_PROFILE_CSS,
   ADMIN_CSS,
   ATTRIBUTION_CSS,
+  VERIFY_ATTRIBUTE_CSS,
 ].join('\n');
 
 /**

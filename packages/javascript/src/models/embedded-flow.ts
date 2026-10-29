@@ -5,6 +5,7 @@ export enum EmbeddedFlowType {
   Authentication = 'AUTHENTICATION',
   Recovery = 'RECOVERY',
   Registration = 'REGISTRATION',
+  SelfService = 'SELF_SERVICE',
   UserOnboarding = 'USER_ONBOARDING',
 }
 
@@ -114,6 +115,9 @@ export enum EmbeddedFlowComponentType {
 
   /** Phone number input field with country code support */
   PhoneInput = 'PHONE_INPUT',
+
+  /** Resend action that asks the server to send a new code, without submitting the step's inputs */
+  Resend = 'RESEND',
 
   /** Rich text display component that renders formatted HTML content */
   RichText = 'RICH_TEXT',
